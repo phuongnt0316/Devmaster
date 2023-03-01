@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/js10.js"></script>
+</head>
+<body>
+    <section id="zone1">
+        <h1>Giải phương trình bậc 1</h1>
+        <form action="" method="post" name="frm">
+            <div>
+                <label for="heSoA">Hệ số a:</label>
+                <input type="number" name="heSoA" id="heSoA">
+            </div>
+            <div>
+                <label for="heSoB">Hệ số b:</label>
+                <input type="number" name="heSoB" id="heSoB">
+            </div>
+            <div>
+                <label for=""></label>
+                <input type="button" name="btnGPT" onclick="fn_ptb1();"  value="GPT">
+            </div>
+            <div>
+                <label for="ketQua">Kết quả:</label>
+                <input type="text" name="ketQua" id="ketQua" readonly>
+            </div>
+        </form>
+    </section>
+    <script>
+        const fn_ptb1=()=>{
+        
+           let a=frm.heSoA.value;
+           let b=frm.heSoB.value;
+          a=parseFloat(a);
+          b=parseFloat(b);
+          let kq="";    
+    console.log("giải phương trình ",a,"x+",b+"=0");
+if(a==0){
+    if(b==0){
+        kq="PT vô số nghiệm";
+    }
+    else{
+        kq="PT vô nghiệm";
+    }
+
+}
+else{
+ kq="PT có nghiệm x= ",-b/a;
+
+}
+frm.ketQua.value=kq;
+}
+        
+        //  a=frm.heSoA.value;
+        //  b=frm.heSoB.value;
+        // //kq=fn_ptb1(a,b);
+        
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+/* Bộ chọn *  Chọn tất cả các phần tử*/
+*{
+margin: 0; 
+padding: 0;
+}
+/* Bộ chọn 
+-tag 
+-class 
+-id  
+-attribute*/
+body{
+    background-color: rgb(238, 226, 226);
+}
+/* Bộ chọn tag01,tag02 */
+header,footer{
+    border: 1px solid red;
+    margin: 1rem;
+    height: 50px;
+    border-radius: 5px;
+    background-color: aqua;
+}
+/* Bộ chọn tag01 tag02 */
+#zone2 p{
+    color: blue;
+}
+/* Bộ chọn tag01>tag02 */
+#zone2>p{
+    border: 1px solid #12a;
+    width: 100px;
+}
+/* Bộ chọn tag01+tag02  */
+#zone3 div+p{
+    width: 100px;
+    color: red;
+}
+/* Bộ chọn tag01~tag02 */
+#zone4 div~p{
+    border: 1px dotted green;
+    width: 100px;
+    padding: .5rem;
+}
+/* Bộ chọn ngữ cảnh 
+:hover
+:first-child
+:last-child
+::first-letter
+:nth-child(num)
+:nth-child(2n)
+:nth-child(2n+1)*/
+#zone5{
+    background-color: white;
+    padding: 1rem;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul{
+    margin: 1rem;
+    width: 150px;
+    border: 1px solid #ccc;
+    list-style: none;
+}
+nav li{
+    padding: .5rem 1rem;
+    border-bottom: 1px solid #ccc;
+}
+nav li:last-child{
+    border-bottom: none;
+}
+nav li:nth-child(2n){
+    background-color: green;
+}
+nav li:nth-child(2n+1){
+    background-color: yellow;
+}
+nav li:hover{
+    background-color: red;
+    cursor: pointer;
+}

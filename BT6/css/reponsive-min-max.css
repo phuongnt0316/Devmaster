@@ -1,0 +1,29 @@
+
+@media  (max-width: 421.98px) {
+    html,body{background-color: aqua;
+    }
+}
+@media (min-width: 768px) and (max-width: 1199.98px) {
+     html,body{background-color: red;
+     }
+}
+@media (min-width: 576px) and (max-width: 767.99px) {
+    html,body{background-color: yellow;
+    }
+}
+@media (min-width: 420px) and (max-width: 575.98px) {
+    html,body{background-color: pink;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    html,body{background-color: greenyellow;
+    }
+}
+@media (min-width: 1400px) and (max-width: 1599.98px) {
+    html,body{background-color: orange;
+    }
+}
+@media (min-width: 1600px) {
+    html,body{background-color: burlywood;
+    }
+}

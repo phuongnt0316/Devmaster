@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#banner img{
+    width: 100%;
+}
+
+nav{
+    background-color: #78b43d;
+}
+nav ul{
+    margin: 0 10%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    border-right: 1px solid pink ;
+    flex: 0 100%;
+    
+}
+nav a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: .5rem 1rem;
+    text-align:center;
+}
+nav li:hover{
+    background-color: red;
+}

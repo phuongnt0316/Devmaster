@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #ccc;
+    margin: 1rem 10%;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     flex-direction: row; 
+     
+    /* height: 35px; */
+}
+li{
+    flex: 0 100%;
+}
+nav a{
+    
+    text-decoration: none;
+    background-color: aqua;
+    display: block;
+    padding: .5rem 1rem;
+}

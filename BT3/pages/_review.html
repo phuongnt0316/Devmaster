@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table and form</title>
+</head>
+<body>
+    <h1>Table and form</h1>
+    <form action="post">
+        <table border="0" align="center" cellspacing="0" cellpadding="5" width="80%">
+            <thead>
+                <tr>
+                    <th colspan="2">
+                        <h2 align="center" >Thông tin đăng ký </h2>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label for="hoTen">Họ tên</label></td>
+                    <td><input type="text" name="hoTen" id="hoTen" placeholder="Nhập họ tên..."></td>
+                </tr>
+                <tr>
+                    <td><label for="taiKhoan">Tài khoản</label></td>
+                    <td><input type="text" name="taiKhoan" id="taiKhoan" placeholder="Nhập tài khoản..."></td>
+                </tr>
+                <tr>
+                    <td><label for="matKhau">Mật khẩu</label></td>
+                    <td><input type="password" name="matKhau" id="matKhau" placeholder="Nhập mật khẩu..."></td>
+                </tr>
+                <tr>
+                    <td><label for="gioiTinh">Giới tính</label></td>
+                    <td>
+                        <input type="radio" name="gt" id="gtNam" checked>
+                        <label for="gtNam">Nam</label>
+                        <input type="radio" name="gt" id="gtNu">
+                        <label for="gtNu">Nữ</label>
+                        <input type="radio" name="gt" id="gtKhac">
+                        <label for="gtKhac">Khác</label>
+                    </td>
+            
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" name="email" id="email" placeholder="123@gmail.com"></td>
+                </tr>
+                <tr>
+                    <td><label for="dienThoai">Điện thoại</label></td>
+                    <td><input type="tel" name="dienThoai" id="dienThoai" placeholder="(+84) 0123-345-678" pattern=""></td>
+                </tr>
+                <tr>
+                    <td><label for="diaChi">Địa chỉ</label></td>
+                    <td><textarea name="diaChi" id="diaChi" cols="30" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="avata">Ảnh</label></td>
+                    <td><input type="file" name="avata" id="avata"></td>
+                </tr>
+                <tr>
+                    <td><label for=""></label></td>
+                    <td>
+                        <input type="submit" value="Đăng ký" name="dangKy">
+                        <input type="reset" value="Làm lại" name="lamLai">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>

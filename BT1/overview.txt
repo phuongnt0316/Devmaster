@@ -1,0 +1,36 @@
+OVERVIEW
+-----Phần 1: FE----------
+-HTML5
++ tag basic
++ table,form
++các thẻ bố cục nội dung
+-CSS3
++định dạng nội dung trên trang
++ các tương tác
++ animation
++efect
++...
+-Ngôn ngữ kịch bản: javascript
++syntax
++khái niệm cơ bản của ngôn ngũ lập trình:
+->biến,hàng,kiểu dữ liệu,toán tử, toán hạng, biểu thức, câu lệnh, khối lệnh...
+->I/O
+-_>cấu trúc điều khiển
+( 3 loại)
+->mảng
+->hàm
+->DOM/Event
+->Object 
+->OOP in js
+-Jquery
+-Bootstrap:
+- Cắt ghép giao diện
+ .psd,.ai,.xd,figma->.html
+----> Hoàn thiện project frontend website 5->10 trang html (2 tuần)--> Chứng nhận: 
+---------------------------------
+Tài nguyên học tập: slides,Labguide, Books
+- công cụ: vscode
+netbean
+sublime text
+....
+------Phần 2 Reactjs----------

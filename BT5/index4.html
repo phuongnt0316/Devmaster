@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        section{
+            border: 1px solid red;
+            width: 350px;
+        }
+        section img{
+            width: 100%;
+            display: block;
+            
+        }
+        section > div {
+            position: relative;
+        }
+        div span{
+            color: red;
+            position: absolute;
+           background-color: white;
+           padding: 1rem;
+           right: 0;
+           top:0;
+           opacity: .65;
+           border-bottom-left-radius:75% ;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div>
+            <img src="images/meo.jpg" alt="Ảnh">
+            <span>50%</span>
+        </div>
+    </section>
+</body>
+</html>

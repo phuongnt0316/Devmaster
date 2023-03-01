@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <h1>Đăng ký thành viên</h1>
+    <table cellspacing="5" cellpadding="5" width="500px">
+      <tbody>
+        <tr>
+            <td> <label for="hoTen">Họ và tên</label> </td>
+            <td><input type="text" name="hoTen" id="hoTen"></td>
+        </tr>
+        <tr>
+            <td> <label for="tenDangNhap">Tên đăng nhập</label> </td>
+            <td><input type="text" name="tenDangNhap" id="tenDangNhap"></td>
+        </tr>
+        <tr>
+            <td> <label for="passWord">Mật khẩu</label> </td>
+            <td><input type="password" name="passWord" id="passWord"></td>
+        </tr>
+        <tr>
+            <td><label for="anhDaidien">Ảnh đại diện</label></td>
+            <td><input type="file" name="anhDaidien" id="anhDaidien"></td>
+        </tr>
+        <tr>
+            <td> <label for="thuDienTu">Thư điện tử</label> </td>
+            <td><input type="email" name="thuDienTu" id="thuDienTu"></td>
+        </tr>
+        <tr>
+            <td><label for="gioiTinh">Giới tính</label></td>
+            <td><input type="radio" name="gioiTinh" id="gtNam" checked>Nam
+                <input type="radio" name="gioiTinh" id="gtNu">Nữ
+                <input type="radio" name="gioiTinh" id="gtKhac">Khác
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2"><label for="">Sở thích</label></td>
+            <td>
+                <input type="checkbox" name="bongDa" id="bongDa" checked>Bóng đá
+                <input type="checkbox" name="xemPhim" id="xemPhim" >Xem Phim
+            </td>
+            
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="duLich" id="duLich" checked>Du lịch
+                <input type="checkbox" name="boi" id="boi" checked>Bơi
+                <input type="checkbox" name="ngheNhac" id="ngheNhac" checked>Nghe nhạc
+
+            </td>
+        </tr>
+        <tr>
+            <td><label for="chonTinh">Chọn tỉnh</label></td>
+            <td>
+                <select name="chonTinh" id="">
+                    <option value="">---Chọn tỉnh----</option>
+                    <option value="HN">Hà Nội</option>
+                    <option value="HD">Hải Dương</option>
+            </select>
+        </td>
+        </tr>
+        <tr>
+            <td> <label for="diaChi">Địa chỉ</label> </td>
+            <td><input type="text" name="diaChi" id="diaChi"></td>
+        </tr>
+        <tr>
+            <td> <label for="dienThoai">Điện thoại</label> </td>
+            <td><input type="text" name="dienThoai" id="dienThoai"></td>
+        </tr>
+        <tr>
+            <td><label for="moTaNgan">Mô tả ngắn</label></td>
+            <td>
+                <textarea name="moTaNgan" id="" cols="30" rows="10"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="Đăng ký">
+                <input type="reset" value="Làm lại">
+            </td>
+        </tr>
+      </tbody>  
+    </table>
+    </form>
+</body>
+</html>

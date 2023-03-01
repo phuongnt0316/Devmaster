@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cú pháp tương tác trong html</title>
+    <style>
+        h2{
+            color: blue;
+        }
+        p{
+            border-left: 1px solid blue;
+            border-top: 1px solid blue;
+            margin: 1rem;
+            padding: 1rem;
+
+        }
+        #zonel{
+            background-color: pink;
+        }
+        .title-2{
+            color: brown;
+            font-family: "Tohoma";
+            font-weight: 1200;
+            padding: 1.5rem;
+        }
+        p.noi-dung{
+            background-color: aquamarine;
+        }
+        input[type=text]{
+            width: 90%;
+            border: 1px solid #ccc;
+            border-radius: 0;
+            padding: .25rem .5rem;
+        }
+        input:focus{
+            outline: none;
+            border-color: red;
+        }
+        
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Cú pháp tương tác trong html</h1>
+        <hr>
+    </section>
+    <!-- Cú pháp css tương tác thông qua tên thẻ -->
+    <section>
+        <h2>
+            Cú pháp css tương tác thông qua tên thẻ  
+        </h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex esse blanditiis cum harum cumque velit dolores dolorum illum repudiandae tempore perferendis, totam inventore incidunt porro? Quae deleniti eaque voluptatibus natus?</p>
+    <hr>
+    <!-- Cú pháp css thông qua thuộc tính id của phần tử -->
+    </section>
+    <section id="zonel">
+        <h2>Cú pháp css thông qua thuộc tính id của phần tử</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus magnam alias sapiente quaerat sed! Vel, quod rem? Sed minima, laudantium quasi provident illo eaque? At laboriosam ab id doloribus corrupti.</p>
+    </section>
+    <hr>
+    <!-- Cú pháp css tương tác thông qua thuộc tính class của phần tử html -->
+<section>
+    <h2 class="title-2">    Cú pháp css <span class="noi-dung">tương tác thông qua thuộc tính class</span> của phần tử html
+    </h2>
+    <p class="noi-dung">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quasi dolores natus nobis quia rem quaerat voluptas sint unde, error repellendus, temporibus expedita illum quos ab veritatis cum est explicabo.</p>
+</section>
+<!-- Cú pháp css tương tác thông qua giá tri thuộc tính của phần tử -->
+<section id="zone3">
+    <h3>Cú pháp css tương tác thông qua giá tri thuộc tính của phần tử</h3>
+    <hr>
+    <div class="row">
+        <label for="hoTen">Họ tên</label>
+        <input type="text" name="hoTen" id="hoTen">
+    </div>
+    <div class="row">
+        <label for="taiKhoan">Tài khoản</label>
+        <input type="text" name="taiKhoan" id="taiKhoan">
+    </div>
+    <div class="row">
+        
+        <input type="submit" value="Submit" id="btnSubmit">
+        <input type="reset" value="Reset" id="btnReset">
+    </div>
+</section>
+</body>
+</html>

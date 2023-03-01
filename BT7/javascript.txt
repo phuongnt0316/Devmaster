@@ -1,0 +1,20 @@
+3 cấu trúc điều khiển
+a)Lựa chọn/rẽ nhánh
+(js)
+-if(4 dạng)
+-switch
+b)Lặp(loop)
+(js)
+-for(4 dạng)
+-while
+-do{...} while(...)
+-for..in
+c) Lệnh nhảy
+(js)
+break;
+continue;
+return;
+...
+5.Mảng
+6.Hàm
+7.Object/DOM
