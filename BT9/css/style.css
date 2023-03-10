@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.form-login{
+    border: 1px dotted black;
+    height: 300px;
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+}
+.form-group{
+    margin-bottom: 1rem;
+}
